@@ -14,10 +14,10 @@ Skrip Bash otomatis untuk menginstal dan mengonfigurasi Web Server di VPS Linux 
 10. Auto Update dari GitHub (Tanpa install ulang)
 
 # Cara Update #
-1. Jika ada versi baru di GitHub, cukup pilih Menu 14 (Update Tool) di script, atau jalankan perintah:
-> cd vps-manager <
-> git pull <
-> sudo ./main.sh <
+# Jika ada versi baru di GitHub, cukup pilih Menu 14 (Update Tool) di script, atau jalankan perintah:
+2. cd vps-manager
+3. git pull
+4. sudo ./main.sh <
 
 
 # Cara Install & Jalankan #
