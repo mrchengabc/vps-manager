@@ -1,13 +1,13 @@
 # ⚙️ VPS Web Server Manager (Modular) #
-# Skrip Bash otomatis untuk menginstal dan mengonfigurasi Web Server di VPS Linux (Ubuntu/Debian). Didesain dengan arsitektur modular untuk kemudahan debugging dan update.
+Skrip Bash otomatis untuk menginstal dan mengonfigurasi Web Server di VPS Linux (Ubuntu/Debian). Didesain dengan arsitektur modular untuk kemudahan debugging dan update.
 
 # ✨ Fitur Utama # 
-# Update System & Konfigurasi Firewall (UFW)
-# Ganti SSH Port (22 ke 5631) secara aman
-# Instalasi Apache / Nginx
-# Instalasi Database (MariaDB / MySQL)
-. Instalasi PHP 8.3 + PHP-FPM
-. Manajemen Domain (Add HTML, Add PHP/WordPress, Delete Domain + Database)
+1. Update System & Konfigurasi Firewall (UFW)
+2. Ganti SSH Port (22 ke 5631) secara aman
+Instalasi Apache / Nginx
+Instalasi Database (MariaDB / MySQL)
+Instalasi PHP 8.3 + PHP-FPM
+Manajemen Domain (Add HTML, Add PHP/WordPress, Delete Domain + Database)
 . Migrasi Server via Rsync (Import/Export)
 . Optimasi Performa (Gzip & Keepalive)
 . Monitoring & Pembersihan Log
