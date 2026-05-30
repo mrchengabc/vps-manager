@@ -15,9 +15,9 @@ Skrip Bash otomatis untuk menginstal dan mengonfigurasi Web Server di VPS Linux 
 
 # Cara Update #
 1. Jika ada versi baru di GitHub, cukup pilih Menu 14 (Update Tool) di script, atau jalankan perintah:
-> cd vps-manager
-> git pull
-> sudo ./main.sh
+> cd vps-manager <
+> git pull <
+> sudo ./main.sh <
 
 
 # Cara Install & Jalankan #
