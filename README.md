@@ -4,7 +4,7 @@
 * apt update && apt install git -y
 
 # Clone repository dari GitHub
-*git clone https://github.com/mrchengabc/vps-manager.git
+* git clone https://github.com/mrchengabc/vps-manager.git
 
 # Masuk ke folder vps-manager
 * cd vps-manager
