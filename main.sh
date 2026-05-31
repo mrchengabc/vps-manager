@@ -75,9 +75,10 @@ while true; do
     echo "16. Konfigurasi Swap Server"
     echo "17. Instalasi SSL Let's Encrypt + Auto Renew"
     echo "----------------------------------------"
-    echo "18. Keluar"
+    echo "18. Backup Domain & Database (Download)"
+	echo "19. Keluar"
     echo -e "${GREEN}========================================${NC}"
-    read -p "Pilih menu [1-18]: " choice
+    read -p "Pilih menu [1-19]: " choice
 
     case $choice in
         1) run_module "01_update.sh" ;;
@@ -97,7 +98,8 @@ while true; do
         15) run_module "15_security_headers.sh" ;;
         16) run_module "16_swap_server.sh" ;;
         17) run_module "17_ssl_letsencrypt.sh" ;;
-        18) exit 0 ;;
+		18) run_module "18_backup_domain.sh" ;;
+        19) exit 0 ;;
         *) echo -e "${RED}Pilihan tidak valid!${NC}" && sleep 1 ;;
     esac
 done
